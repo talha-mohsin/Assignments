@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Bungee+Tint&family=Comic+Relief:wght@400;700&family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Bungee+Tint&family=Comic+Relief:wght@400;700&family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar1{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(27, 30, 30);
+    color: white;
+    display: flex;
+    font-size: 14px;
+    align-items: center !important;
+}
+.logo_bar{
+    padding: 18px 10px 0 18px;
+}
+.logo{
+    width: 100px;
+}
+.deliver{
+    padding: 10px;
+    margin-right: 10px;
+}
+.fa-location-dot{
+    font-size: 18px;
+}
+#deliver{
+    color: gainsboro;
+    font-size: 12px;
+    padding-left: 18px;
+}
+#country{
+    font-size: 13px;
+    font-weight: 700;
+}
+.input{
+    display: flex;
+    height: 40px;
+}
+#all_department{
+    border: none;
+    width: 50px;
+    color: rgb(81, 81, 81);
+    background-color: rgb(233, 231, 231);
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+}
+#input_bar{
+    width: 550px;
+    border: none;
+    padding-left: 10px;
+}
+#search_icon{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 20px;
+    display: flex;
+}
+#flag{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+.flag{  
+    height: 13px;
+    width: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flag_select{
+    background-color: rgb(27, 30, 30);
+    color: white;
+    border: none;
+}
+.countries{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}
+.signin_container{
+    margin-right: 15px;
+}
+.signin_container a{
+    color: white;
+    text-decoration: none;
+}
+.signin{
+    font-size: 12px;
+    color: rgb(241, 239, 239);
+}
+.account{
+    font-weight: 700;
+}
+/* cart */
+.cart{
+    margin: 0 15px;
+}
+.fa-cart-shopping{
+    font-size: 28px;
+    /* margin-left: 12px; */
+}
+
+/* navbar2 */
+.panel{
+    background-color: #1e2a2a;
+    color: white;
+    display: flex;
+    align-items: center !important;
+    vertical-align: middle;
+    gap: 20px;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+    font-weight: 500;
+}
+/* menu */
+.all{
+    margin-left: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.all i{
+    font-size: 20px;
+}
+.all span{
+    font-weight: 600;
+}
+
+/* container Start */
+.container{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.extra_space{
+    width: 29vw;
+}
+.div{
+    height: 1000px;
+
+}
+.all_imgs{
+    display: flex;
+    position: sticky;
+    top: 30px;
+    background: white;
+    z-index: 10;
+}
+.img_div{
+    padding: 4px 0;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.img{
+    width: 35px;
+    height: 35px;
+}
+.share{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 290px;
+    top: 15px;
+}
+.image{
+    width: 25vw;
+}
+.detail{
+    width: 45vw;
+}
+.first_heading{
+    font-size: 24px;
+    
+}
+.blue{
+    color: rgb(3, 99, 168);
+    font-size: 14px;
+}
+.blue:hover{
+    color: rgb(3, 52, 87);
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* star */
+.fa-star{
+    color: rgb(228, 155, 18);
+}
+/* Amount */
+.amount{
+    font-size: 27px;
+    font-family: "Rubik", sans-serif;
+    margin: 15px 0 8px 0;
+}
+sup{
+    font-family: "Rubik", sans-serif;
+}
+.gray{
+    color: rgb(64, 64, 64);
+}
+.delivery{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.arrow{
+    margin-left: 5px;
+    font-size: 16px;
+}
+/* horizontal line */
+hr{
+    color: gainsboro;
+}
+/* icons */
+.icons_container{
+    display: flex;
+    gap: 30px;
+    margin: 15px 10px 10px 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icon{
+    margin-top: 10px;
+}
+/* Size Laser */
+.size_container{
+    display: flex;
+    gap: 10px;
+}
+.laser{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.laser_price{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7px;
+    width: 80px;
+    height: 55px;
+}
+/* adding line */
+hr{
+    border: 1px solid gainsboro;
+}
+/*** Third column ***/
+.extra_detail{
+    width: 16vw;
+    height: 645px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+/* Price */
+.small_price{
+    font-size: 12px;
+}
+/* delete price */
+del{
+    font-size: 10px;
+    color: gray;
+}
+ul{
+    margin-top: 20px;
+}
+li{
+    margin: 5px 0;
+}
+/* add red color */
+.red{
+    color: rgb(201, 5, 5);
+}
+/* location */
+.location{
+    margin: 10px 0;
+}
+.fa-location-dot{
+    font-size: 14px;
+}
+.small{
+    font-size: 12px;
+}
+.stock{
+    font-size: 20px;
+    color: green;
+    margin: 10px 0;
+}
+/* Select box */
+.quality{
+    width: 200px;
+    padding: 6px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+/* buttons */
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btn1{
+    width: 200px;
+    background-color: rgb(255, 204, 0);
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    margin: 12px 0 8px 0;
+}
+.btn{
+    width: 200px;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+}
+/* ships_container */
+.ships_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ship{
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+    margin-bottom: 10px;
+}
+.two_ships{
+    display: flex;
+}
+.amazon{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.small2{
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+.list{
+    background-color: white;
+    padding: 6px 6px 6px 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: left;
+}
