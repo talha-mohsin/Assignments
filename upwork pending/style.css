@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.box1{
+    width: 300px;
+    height: 70px;
+    font-size: 14px;
+    background-color: #f0eeee;
+    display: flex;
+    align-items: center;
+}
+.box1_text{
+    font-weight: 500;
+}
+.fa-angle-right{
+    font-size: 12px;
+}
+sup{
+    font-size: 6px;
+    font-weight: 600;
+    top: 5px;
+}
+.talent{
+    font-weight: 500;
+}
+.sm_text{
+    font-size: 13px;
+    font-weight: 500;
+}
+.card_img{
+    height: 160px;
+    width: 165px;
+}
+/* Hero Section */
+.bg_img{
+    background-image: url("assets/bg_female.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 78vw;
+    width: 90vw;
+    border-radius: 30px;
+}
+.main_heading{
+    font-size: 65px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 55vw;
+}
+.input_bar{
+    height: 200px;
+    width: 500px;
+    background-color: brown;
+}

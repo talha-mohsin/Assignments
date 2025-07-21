@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* main container */
+.signin_container {
+    width: 350px;
+    height: fit-content;
+    margin: 15px auto;
+}
+/* logo */
+.logo {
+    margin: 0 0 15px 35%;
+}
+/* sign in */
+.signin {
+    border: 1px solid gainsboro;
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+}
+/* main_heading */
+.big_heading {
+    font-weight: 500;
+    font-size: 28px;
+}
+.small_heading {
+    font-weight: 700;
+    font-size: 14px;
+}
+/* input */
+.input{
+    width: 290px;
+    height: 25px;
+}
+/* button */
+.btn{
+    margin: 12px 0 0 0;
+    width: 300px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: rgb(255, 213, 0);
+    border: none;
+}
+/* agree Amazon policies */
+.small_size{
+    font-size: 12px;
+}
+/* added blue colors in anchor tags etc */
+.blue{
+    color: #196fb4;
+    cursor: pointer;
+}
+.blue:hover{
+    color: #0C3353;
+}
+.select{
+    border: none;
+    width: 85px;
+    margin: 10px 10px 10px 0;
+}
+hr{
+    border: 1px solid rgb(228, 228, 228);
+}
+.new{
+    color: gray;
+    text-align: center;
+}
+.line{
+    color: gainsboro;
+}
+.account{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid gray;
+    padding: 8px 90px;
+    border-radius: 25px;
+}
+.privacy{
+    margin: 0 20px;
+}
+/*bottom*/
+.bottom{
+    border-top: 2px solid gainsboro;
+    width: 95vw;
+    margin: 40px auto 0 auto;
+    padding-top: 25px;
+    text-align: center;
+}
+
+/* signup */
+.signup{
+    height: 520px;
+}
+@media (min-width="576px") {
+    
+}
+@media (min-width="768px") {
+    
+}
+@media (min-width="992px") {
+    
+}
+@media (min-width="1200px") {
+    
+}

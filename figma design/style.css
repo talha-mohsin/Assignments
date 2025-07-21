@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+* {
+  font-family: "Sora", sans-serif;
+}
+/* navbar */
+.logo {
+  height: 55px;
+  width: 174px;
+}
+.navContainer {
+  padding: 0 76px;
+  border-bottom: 1px solid #006aff;
+}
+.btn_contact {
+  width: 131px;
+  height: 35px;
+  border-radius: 7px;
+  background: #006aff;
+  color: white;
+  border: none;
+}
+/* hero section */
+.center_container {
+  padding: 0 76px;
+  background: #f3f1ff;
+}
+.heroSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 74px;
+}
+.heroSec .heading {
+  color: #006aff;
+  font-weight: 700;
+  font-size: 70px;
+}
+.wheel_chair {
+  width: 450px;
+  height: 400px;
+}
+.heroSec button {
+  width: 313px;
+  height: 56px;
+  border-radius: 12px;
+  border: 1.5px solid #0500ff;
+  background: #006aff;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.industriesContainer {
+  margin-top: 71px;
+}
+.industriesCard {
+  width: 321px;
+  height: 281px;
+  border-radius: 20px;
+  background: linear-gradient(#0169fb, #1862c5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.industriesContainer h1 {
+  color: #1463cc;
+  font-size: 40px;
+}
+.industriesImg img {
+  width: 86px;
+  height: 88px;
+}
+.industriesImg {
+  width: 98px;
+  height: 98px;
+  border-radius: 16px;
+  border: 1px solid #0ddf09;
+}
+.industriesCard p {
+  font-weight: 400;
+  font-size: 12px;
+}
+.imgSlider img {
+  width: 150px;
+  height: 110px;
+}
+.combinationContainer{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+.selectCombination h2 {
+  color: #1463cc;
+  padding-left: 100px;
+}
+.selectCombination {
+  width: 50%;
+}
+.imgSlider {
+  display: flex;
+  overflow: auto;
+}
+.textBtn {
+  width: 40vw;
+  border-radius: 8px;
+  color: white;
+  background-color: #006aff;
+  border: 1px solid #0500ff;
+  margin-top: 30px;
+}
+.ourTeamHeading {
+  color: #1463cc;
+  font-weight: 600;
+}
+.ourTeam {
+  position: relative;
+  top: -70px;
+}
+.ourTeamCard {
+  width: 250px;
+  color: #1463cc;
+}
+.ourTeamCard p {
+  font-weight: 700;
+}
+.image_container {
+  height: 250px;
+  width: 250px;
+  background-color: #006aff;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+}
+.image_container img {
+  width: 400px;
+  height: 280px;
+  margin-top: -31px;
+}
+.cardBlogs {
+  font-size: 12px;
+  border-radius: 15px;
+}
+.cardImg {
+  border: 1px solid #11e5b3;
+  border-radius: 15px;
+}
+.cardBlogs .date,
+.cardBlogs .title {
+  font-weight: 600;
+}
+.cardBlogs .description {
+  font-weight: 400;
+}
+.cardBlogs button {
+  background: linear-gradient(#0c0096, #683de5);
+  color: white;
+  border-radius: 8px;
+  height: 30px;
+  border: 1px solid #11e5b3;
+  margin-top: 18px;
+}
+.ourClientsHeading {
+  color: #1463cc;
+  font-weight: 600;
+  margin-top: 88px;
+}
+.ourClients {
+  width: 100%;
+  background-color: #1375ff;
+  padding: 30px;
+  border-radius: 15px;
+}
+.delta {
+  border: 1px solid white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 120px;
+}
+.client {
+  width: 100%;
+  position: relative;
+  top: -90px;
+}
+@media only screen and (max-width: 576px) {
+  .heroSec{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .combinationContainer{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+}
+@media only screen and (min-width: 576px) {
+  .ourTeam {
+    grid-template-columns: repeat(1, auto);
+  }
+  .heroSec{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .combinationContainer{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+}
+@media only screen and (min-width: 768px) {
+  .ourTeam {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ourTeam {
+    grid-template-columns: repeat(4, auto);
+  }
+  .heroSec{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .combinationContainer{
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+}

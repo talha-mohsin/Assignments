@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Bebas+Neue&family=Boldonse&family=Bungee+Tint&family=Comic+Relief:wght@400;700&family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  padding: 0 3vw !important;
+}
+
+.logo img {
+  width: 190px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.anchor {
+  color: #5e54dc;
+  font-weight: 600;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.toggle {
+  height: 20px;
+  width: 45px;
+  border-radius: 10px;
+  background-color: #aab4be;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #001e3c;
+  color: white;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-circle-user {
+  font-size: 35px;
+}
+
+.menu {
+  visibility: hidden;
+  position: absolute;
+  font-size: 25px;
+}
+
+/* SECTION 1 */
+#sec1 {
+  text-align: center;
+  background: linear-gradient(#ffffff, #efecff);
+}
+
+#main_heading {
+  font-size: 6vw;
+  font-weight: 800;
+  margin: 30px auto 20px auto;
+  background: linear-gradient(to right, #5b3dee, #3dd2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 55vw;
+}
+
+#sec1 p {
+  font-size: 2vw;
+  width: 72vw;
+  margin: auto;
+  line-height: 3.5vw;
+}
+
+#search_engine {
+  border: 1px solid rgb(174, 171, 171);
+  border-radius: 5px;
+  width: 50vw;
+  height: 40px;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #f9f8ff;
+}
+
+#search_engine:focus-within {
+  border: 2px solid #5b3dee;
+}
+
+#sec1 input {
+  width: 45vw;
+  height: 35px;
+  font-size: 16px;
+  background-color: #f9f8ff;
+  border-radius: 5px;
+  border: none;
+}
+
+#sec1 input:focus {
+  outline: none;
+}
+
+#sec1 .search {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: #5b3dee;
+}
+
+#sec1 button {
+  display: block;
+  height: 40px;
+  width: 120px;
+  background-color: #5b3dee;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px auto;
+}
+
+.search_heading {
+  color: #5b3dee;
+  font-size: clamp(18px, 3vw, 24px);
+  /*18px min, 3vw preferred, 24px max*/
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.searches {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin: auto;
+  gap: 15px;
+}
+
+.box {
+  border: 1px solid #5b3dee;
+  border-radius: 3px;
+  padding: 7px;
+  font-size: 14px;
+  color: #5b3dee;
+  font-weight: 800;
+}
+
+/* Section 2 */
+.main_heading {
+  font-size: clamp(20px, 6vw, 48px);
+  /*20px min, 6vw preferred, 50px max*/
+  margin: 50px auto;
+  text-align: center;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.main_heading span {
+  color: #6851FF;
+}
+
+/* carousel */
+.carousel1 {
+  display: flex;
+  width: 85vw;
+  height: 60vh;
+  gap: 30px;
+  margin: auto;
+}
+
+.box_carousel {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 225px;
+  padding: 20px;
+  line-height: 1.8rem;
+  box-shadow: 0 8px 10px gainsboro;
+}
+
+.boxhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.boxbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 40px;
+  text-align: right;
+}
+.card_set{
+  font-size: 1.5vw;
+}
+
+.purple {
+  color: #5e54dc;
+  font-weight: 500;
+}
+
+/* SECTION 3 */
+.sec3-h {
+  animation: main_heading 1s ease-in-out 0.2s;
+  margin-top: 0;
+}
+.sec3-h span {
+  animation: main_heading_span 1s ease-in-out 0.2s;
+}
+/* boxes start */
+.carousel2{
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
+.box_sec3{
+  height: 250px;
+  width: 350px;
+  border: 1px solid rgb(220, 217, 217);
+  border-radius: 20px;
+}
+.box_header{
+  padding: 20px;
+}
+.box_head{
+  display: flex;
+  gap: 10px;
+}
+.box_icon{
+  padding-top: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c6c5c5;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+}
+.box_title{
+  color: #5b3dee;
+  font-weight: 600;
+}
+.about_box{
+  font-size: 12px;
+  font-weight: 600;
+  color: #9d9d9d;
+}
+.box_des{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}                                     
+.box_img{
+  background-image: url("https://www.hiringmine.com/assets/PostJob-9398b37f.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 44%;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* Section 4 */
+.mybox{
+  font-size: 12px;
+  width: 110px;
+}
+.mybox i{
+  font-size: 16px;
+}
+.mybox div{
+  border: 1px solid black;
+  background: linear-gradient(#EFEDFF, white);
+}
+.purple2{
+  color: #6851FF;
+}
+
+/* Section 5 */
+.para{
+  width: 70vw;
+  font-size: 20px;
+}
+
+/* Section 6 */
+.sec6-h {
+  animation: main_heading_sec6 1s ease-in-out 0.2s;
+  margin-top: 100px;
+}
+.sec6-h span {
+  animation: main_heading_sec6_span 1s ease-in-out 0.2s;
+}
+.sec6-p{
+  animation: sec6-p 1s ease-in-out 0.2s;
+} 
+.profile_card{
+  box-shadow: 2px 2px 1px gray;
+  height: 60px;
+  width: 233px;
+  margin: auto;
+}
+.profile_card p{
+  font-size: 11px;
+  font-weight: 500;
+  color: #837e7e;
+}
+.profile_card .heading_name{
+  font-size: 14px;
+  font-weight: 600;
+  color: #6851ff;
+}
+
+.job_box{
+  background: linear-gradient(#EDEBFE, white);
+  /* box-shadow: 30px 35px 20px gainsboro; */
+}
+.job_box i{
+  font-size: 25px;
+}
+.job_box .purple{
+  color: #6851FF;
+}
+/* footer */
+.footer{
+  background-color: #6851FF;
+}
+
+@keyframes sec6-p {
+  0%{
+    transform: translate(150px);
+    color: transparent;
+  }
+  100%{
+    transform: translate(0px);
+    color: black;
+  }
+}
+
+@keyframes main_heading_sec6 {
+  0% {
+    transform: translateX(-150px);
+    color: transparent;
+  }
+
+  100% {
+    transform: translateX(0px);
+    color: #3f3f3f;
+  }
+}
+
+@keyframes main_heading_sec6_span {
+  0% {
+    transform: translateX(-150px);
+    color: transparent;
+  }
+
+  100% {
+    transform: translateX(0px);
+    color: #6851ff;
+  }
+}
+
+
+@keyframes main_heading {
+  0% {
+    transform: translateX(150px);
+    color: transparent;
+  }
+
+  100% {
+    transform: translateX(0px);
+    color: #3f3f3f;
+  }
+}
+
+@keyframes main_heading_span {
+  0% {
+    transform: translateX(150px);
+    color: transparent;
+  }
+
+  100% {
+    transform: translateX(0px);
+    color: #6851ff;
+  }
+}
+
+
+@media only screen and (max-width: 899px) {
+  .links {
+    display: none;
+  }
+
+  #main_heading {
+    width: 90vw;
+    font-size: 8vw;
+  }
+
+  .menu {
+    visibility: visible;
+    position: static;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #search_engine {
+    width: 90vw;
+  }
+
+  #sec1 input {
+    width: 81vw;
+  }
+
+  #main_heading {
+    font-size: 9vw;
+    width: 90vw;
+  }
+
+  #sec1 p {
+    font-size: 3vw;
+    width: 75vw;
+  }
+
+  nav,
+  section {
+    width: 100%;
+  }
+
+  .searches {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .logo img {
+    width: 45vw;
+    min-width: 130px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .fa-circle-user {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .toggle,
+  .fa-sun {
+    display: none;
+  }
+
+  .user_icon,
+  .fa-circle-user {
+    display: none;
+  }
+
+  #sec1 p {
+    font-size: 3.5vw;
+    width: 95vw;
+  }
+
+  #sec1 input {
+    text-overflow: ellipsis;
+    width: 75vw;
+  }
+
+  .fa-bars {
+    font-size: 22px;
+  }
+}
