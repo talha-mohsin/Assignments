@@ -95,6 +95,7 @@ hr{
 /* signup */
 .signup{
     height: 520px;
+<<<<<<< HEAD
 }
 @media (min-width="576px") {
     
@@ -107,4 +108,6 @@ hr{
 }
 @media (min-width="1200px") {
     
+=======
+>>>>>>> d3534d3e21f3b22001c74debcc92c4212f990440
 }
