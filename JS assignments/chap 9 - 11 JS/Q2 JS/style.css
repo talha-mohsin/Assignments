@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfc;
+}
+#container{
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px #cfcfcf;
+}
+#inputBtn{
+    display: flex;
+}
+input{
+    display: block;
+}

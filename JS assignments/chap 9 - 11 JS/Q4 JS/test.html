@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        background-image: url('assets/car_meter.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        text-align: center;
+        width: 450px;
+        height: 450px;
+        margin: 50px auto 50px auto;
+      }
+      .needle {
+        background-image: url('assets/needle.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 228px;
+        bottom: 60px;
+        width: 360px;
+        height: 200px;
+        animation: rotateHand 5s linear infinite;
+      }
+        @keyframes rotateHand {
+        from {
+          transform: translateX(-50%) rotate(0deg);
+        }
+        to {
+          transform: translateX(-50%) rotate(180deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="needle"></div>
+    </div>
+
+  </body>
+</html>
