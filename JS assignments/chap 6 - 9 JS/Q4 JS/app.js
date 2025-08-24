@@ -1,4 +1,4 @@
-let num = prompt('"Enter any number here to get its table."');
+let num = prompt("Enter any number here to get its table.");
 
 
 if (num === "") {
