@@ -18,11 +18,12 @@ alert("You have visited this site " + visitCount + " times"
 )
 
 // Point 3
-let birthYear = '2005';
+let birthYear = 2005;
 document.writeln(`My birth year is ${birthYear}<br>`);
+document.writeln(`Data type of my declared variable is number`);
 
 // Point 4
 let visitorName = 'Talha';
-let Qty = '5';
+let qty = '5';
 let product = 'T-Shirt';
 document.writeln(`${visitorName} ordered ${Qty} ${product} on Junaid Jamshaid clothing store`);

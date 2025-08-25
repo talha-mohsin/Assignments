@@ -1,4 +1,6 @@
-let num = prompt('"Enter any number here to get its table."');
+// Note: Q4 is empty in book assignment so, here Q5 is Q4.
+
+let num = prompt("Enter any number here to get its table.");
 
 
 if (num === "") {
