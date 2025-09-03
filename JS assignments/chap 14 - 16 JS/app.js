@@ -131,4 +131,15 @@
 // console.log(`Output: ${parts.pop()}`);
 
 // Question no 15*******
-let phonesBrand = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier'];
+let phonesBrand = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+document.writeln(`
+        <select name = "myDropdown">
+            <option>${phonesBrand[0]}</option>
+            <option>${phonesBrand[1]}</option>
+            <option>${phonesBrand[2]}</option>
+            <option>${phonesBrand[3]}</option>
+            <option>${phonesBrand[4]}</option>
+            <option>${phonesBrand[5]}</option>
+        </select>
+        `);

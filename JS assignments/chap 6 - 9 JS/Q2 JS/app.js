@@ -8,6 +8,6 @@ let result = --a - --b + ++b + b--;
 --a - --b + ++b;
 --a - --b + ++b + b--;
 
-document.write('a is: ', a, '<br>');
-document.write('b is: ', b, '<br>');
-document.write('result is: ', result);
+document.writeln('a is: ', a, '<br>');
+document.writeln('b is: ', b, '<br>');
+document.writeln('result is: ', result);

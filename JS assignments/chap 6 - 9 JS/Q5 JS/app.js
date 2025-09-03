@@ -20,7 +20,7 @@ let percentage1 = `${marks1}%`;
 let percentage2 = `${marks2}%`;
 let percentage3 = `${marks3}%`;
 
-document.write(
+document.writeln(
   `<table> 
     <tr>
      <th>Subject</th> <th>Total Marks</th> <th>Obtained Marks</th> <th>Percentage</th> 
