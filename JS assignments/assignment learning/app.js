@@ -26,3 +26,10 @@
 // // ["cat ", ""]   (end me "the" → empty string aya)
 // "thethe".split("the")   
 // // ["", "", ""]   (back-to-back separators → multiple empty strings)
+
+// Math.abs(num) //returns the absolute (always positive) value of num.
+// Math.floor(Math.random() * 2) + 1 //hamesha sirf 1 ya 2 return karega. ✅
+// parseFloat(userInput) //string se number nikalne ke liye use hota hai.
+// copyOfNow.setHours(now.getHours() - 1); // it set hours of copyOfNow date object, .setHours() ismain number mention krna tha to hour get krka -1 kara dia update hota raha ga
+// let numberOfDays = Math.floor(diffMilliSecs / (1000 * 60 * 60 * 24)); //This line find the days, from milli seconds, and without bracket it divide only 1k and multiply others.
+// let laterDate = new Date("dec 31, 2020"); // it find the 2020 date.
