@@ -17,7 +17,7 @@
 // .length → Tells how many parts were created.
 // - 1 → Subtract 1 because the number of "the" occurrences is always one less than the number of parts.
 
-// ✅ **General Rule in 1 Line:**
+// str.split(" ") ek string ko array me todta hai, jahan space " " separator ke taur pe use hota hai. ✅
 // `split()` empty string `""` tab deta hai jab **separator start ya end me ho, ya do separators back-to-back aajayein.**
 // ### Examples:
 // "the cat".split("the")   
@@ -33,3 +33,6 @@
 // copyOfNow.setHours(now.getHours() - 1); // it set hours of copyOfNow date object, .setHours() ismain number mention krna tha to hour get krka -1 kara dia update hota raha ga
 // let numberOfDays = Math.floor(diffMilliSecs / (1000 * 60 * 60 * 24)); //This line find the days, from milli seconds, and without bracket it divide only 1k and multiply others.
 // let laterDate = new Date("dec 31, 2020"); // it find the 2020 date.
+// 1! and 0! is always = 1
+// let hypotenuse = Math.sqrt(baseSquare + perpSquare); // It's find Hypotenuse of a right angle triangle
+// array.join(" ") ek array ke sab elements ko string me jodta hai, aur unke beech " " separator dalta hai. ✅
